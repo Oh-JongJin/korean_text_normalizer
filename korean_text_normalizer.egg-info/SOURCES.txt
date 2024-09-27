@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+korean_text_normalizer.egg-info/PKG-INFO
+korean_text_normalizer.egg-info/SOURCES.txt
+korean_text_normalizer.egg-info/dependency_links.txt
+korean_text_normalizer.egg-info/requires.txt
+korean_text_normalizer.egg-info/top_level.txt

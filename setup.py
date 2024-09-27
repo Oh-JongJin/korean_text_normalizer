@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="korean-text-normalizer",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Oh Jongjin",
+    author_email="5jx2oh@gmail.com",
     description="A tool for normalizing Korean text",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/korean-text-normalizer",
+    url="https://github.com/Oh-JongJin/korean_text_normalizer",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
