@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="korean-text-normalizer",
-    version="0.1.0",
+    version="0.1.1",
     author="Oh Jongjin",
     author_email="5jx2oh@gmail.com",
     description="A tool for normalizing Korean text",

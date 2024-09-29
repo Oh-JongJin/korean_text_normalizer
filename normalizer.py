@@ -1,5 +1,3 @@
-# korean_text_normalizer/normalizer.py
-
 import re
 from jamo import h2j, j2h
 
@@ -10,6 +8,8 @@ class KoreanTextNormalizer:
             'ㄱㅅ': '감사',
             'ㅎㅇ': '안녕하세요',
             'ㅇㅇ': '네',
+            'ㄱㄱ': '가시죠',
+            'ㅌㅌ': '도망쳐',
         }
 
     def normalize(self, text):
