@@ -1,12 +1,12 @@
 import re
-from jamo import h2j, j2h
-
+from jamo import h2j, j2hcj
 
 class KoreanTextNormalizer:
     def __init__(self):
         self.abbreviations = {
-            'ㄱㅅ': '감사',
+            'ㄱㅅ': '감사합니다',
             'ㅎㅇ': '안녕하세요',
+            'ㅂㅂ': '안녕히 계세요',
             'ㅇㅇ': '네',
             'ㄱㄱ': '가시죠',
             'ㅌㅌ': '도망쳐',
@@ -43,14 +43,13 @@ class KoreanTextNormalizer:
 
     def combine_jamo(self, text):
         """분리된 한글 자모를 결합합니다."""
-        return j2h(text)
+        return j2hcj(text)
 
 
-# 사용 예시
 if __name__ == "__main__":
     normalizer = KoreanTextNormalizer()
 
-    sample_text = "ㅎㅇ! 오늘 날씨가 좋네요ㄱㅅ ^_^ 내일도 날씨가 좋았으면"
+    sample_text = "ㅎㅇ! 오늘 날씨가 좋네요^_^ 내일도 날씨가 좋았으면.. ㅂㅂ ㄱㅅ"
 
     normalized_text = normalizer.normalize(sample_text)
     print(f"원본 텍스트: {sample_text}")
