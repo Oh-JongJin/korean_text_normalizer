@@ -16,7 +16,7 @@ Korean Text Normalizer is a Python package for normalizing Korean text. It provi
 
 ## Installation
 
-You can install the package using pip:
+You can install the package using [pip](https://pypi.org/project/korean-text-normalizer/):
 
 ```
 pip install korean-text-normalizer
